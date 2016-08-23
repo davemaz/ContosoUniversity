@@ -152,9 +152,36 @@
     <Compile Include="Migrations\201608231212161_InitialCreate.Designer.cs">
       <DependentUpon>201608231212161_InitialCreate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201608231337576_MaxLengthOnNames.cs" />
+    <Compile Include="Migrations\201608231337576_MaxLengthOnNames.Designer.cs">
+      <DependentUpon>201608231337576_MaxLengthOnNames.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201608231345534_ColumnFirstName.cs" />
+    <Compile Include="Migrations\201608231345534_ColumnFirstName.Designer.cs">
+      <DependentUpon>201608231345534_ColumnFirstName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201608231348114_ColumnFirstNameFix.cs" />
+    <Compile Include="Migrations\201608231348114_ColumnFirstNameFix.Designer.cs">
+      <DependentUpon>201608231348114_ColumnFirstNameFix.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201608231350045_ColumnFirstNameFix1.cs" />
+    <Compile Include="Migrations\201608231350045_ColumnFirstNameFix1.Designer.cs">
+      <DependentUpon>201608231350045_ColumnFirstNameFix1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201608231351060_ColumnFirstNameFix2.cs" />
+    <Compile Include="Migrations\201608231351060_ColumnFirstNameFix2.Designer.cs">
+      <DependentUpon>201608231351060_ColumnFirstNameFix2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201608231522214_ComplexDataModel.cs" />
+    <Compile Include="Migrations\201608231522214_ComplexDataModel.Designer.cs">
+      <DependentUpon>201608231522214_ComplexDataModel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Course.cs" />
+    <Compile Include="Models\Departments.cs" />
     <Compile Include="Models\Enrollments.cs" />
+    <Compile Include="Models\Instructor.cs" />
+    <Compile Include="Models\OfficeAssignment.cs" />
     <Compile Include="Models\Student.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\EnrollmentDateGroup.cs" />
@@ -217,6 +244,24 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201608231212161_InitialCreate.resx">
       <DependentUpon>201608231212161_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201608231337576_MaxLengthOnNames.resx">
+      <DependentUpon>201608231337576_MaxLengthOnNames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201608231345534_ColumnFirstName.resx">
+      <DependentUpon>201608231345534_ColumnFirstName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201608231348114_ColumnFirstNameFix.resx">
+      <DependentUpon>201608231348114_ColumnFirstNameFix.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201608231350045_ColumnFirstNameFix1.resx">
+      <DependentUpon>201608231350045_ColumnFirstNameFix1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201608231351060_ColumnFirstNameFix2.resx">
+      <DependentUpon>201608231351060_ColumnFirstNameFix2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201608231522214_ComplexDataModel.resx">
+      <DependentUpon>201608231522214_ComplexDataModel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
